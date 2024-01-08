@@ -22,15 +22,15 @@
         }
         public static void CountLetters(string text,ref int vowels, ref int cons)
         {
-            text.ToLower();
-            text.Replace('á', 'a');
-            text.Replace('à', 'a');
-            text.Replace('è', 'e');
-            text.Replace('é', 'e');
-            text.Replace('í', 'i');
-            text.Replace('ò', 'o');
-            text.Replace('ó', 'o');
-            text.Replace('ú', 'u');
+            text = text.ToLower();
+            text = text.Replace('á', 'a');
+            text = text.Replace('à', 'a');
+            text = text.Replace('è', 'e');
+            text = text.Replace('é', 'e');
+            text = text.Replace('í', 'i');
+            text = text.Replace('ò', 'o');
+            text = text.Replace('ó', 'o');
+            text = text.Replace('ú', 'u');
 
             foreach (char letter in text) 
             {
